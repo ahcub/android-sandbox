@@ -31,11 +31,13 @@ public class Main extends Activity {
                 if (id == 0) {
                     Intent intent = new Intent(Main.this, HelloWorld.class);
                     startActivity(intent);
+                } else if (id == 1) {
+                    Intent intent = new Intent(Main.this, ServerRequest.class);
+                    startActivity(intent);
                 }
             }
         });
     }
-
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
