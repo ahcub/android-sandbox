@@ -16,6 +16,10 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".HelloWorld"
+            android:label="@string/title_activity_hello_world" >
+        </activity>
     </application>
 
 </manifest>
